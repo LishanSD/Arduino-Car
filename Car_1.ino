@@ -21,4 +21,16 @@ void setup()
 
 void loop()
 {
+    if (Serial.available() > 0)
+    {
+        x = Serial.read();
+        if (x == 'F')
+            forward();
+        else if (x == 'B')
+            backward();
+        else if (x == 'R')
+            right();
+        else if (x == 'L')
+            left();
+    }
 }
