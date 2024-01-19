@@ -24,13 +24,13 @@ void loop()
     if (Serial.available() > 0)
     {
         x = Serial.read();
-        if (x == 'F')
+        if (x == 'f')
             forward();
-        else if (x == 'B')
+        else if (x == 'b')
             backward();
-        else if (x == 'R')
+        else if (x == 'r')
             right();
-        else if (x == 'L')
+        else if (x == 'l')
             left();
     }
 }
