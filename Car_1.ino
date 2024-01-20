@@ -34,3 +34,21 @@ void loop()
             left();
     }
 }
+
+void forward()
+{
+    digitalWrite(in1, HIGH);
+    digitalWrite(in3, HIGH);
+    delay(500);
+    digitalWrite(in1, LOW);
+    digitalWrite(in3, LOW);
+}
+
+void backward()
+{
+    digitalWrite(in2, HIGH);
+    digitalWrite(in4, HIGH);
+    delay(500);
+    digitalWrite(in2, LOW);
+    digitalWrite(in4, LOW);
+}
