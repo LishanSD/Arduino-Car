@@ -34,7 +34,6 @@ void loop()
             left();
     }
 }
-
 void forward()
 {
     digitalWrite(in1, HIGH);
@@ -43,7 +42,6 @@ void forward()
     digitalWrite(in1, LOW);
     digitalWrite(in3, LOW);
 }
-
 void backward()
 {
     digitalWrite(in2, HIGH);
@@ -52,7 +50,6 @@ void backward()
     digitalWrite(in2, LOW);
     digitalWrite(in4, LOW);
 }
-
 void left()
 {
     digitalWrite(in1, HIGH);
@@ -61,7 +58,6 @@ void left()
     digitalWrite(in1, LOW);
     digitalWrite(in4, LOW);
 }
-
 void right()
 {
     digitalWrite(in2, HIGH);
