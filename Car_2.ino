@@ -73,3 +73,24 @@ void loop()
     }
     delay(10);
 }
+
+void forward()
+{
+    digitalWrite(in1, HIGH);
+    digitalWrite(in3, HIGH);
+}
+void backward()
+{
+    digitalWrite(in2, HIGH);
+    digitalWrite(in4, HIGH);
+}
+void left()
+{
+    digitalWrite(in2, HIGH);
+    digitalWrite(in3, HIGH);
+}
+void right()
+{
+    digitalWrite(in1, HIGH);
+    digitalWrite(in4, HIGH);
+}
