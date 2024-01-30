@@ -24,4 +24,52 @@ void setup()
 
 void loop()
 {
+    if (Serial.available() > 0)
+    {
+        x = Serial.read();
+
+        if (x == 'F')
+            forward();
+        else if (x == 'B')
+            backward();
+        else if (x == 'L')
+            left();
+        else if (x == 'R')
+            right();
+        else if (x == 'G')
+            fdl();
+        else if (x == 'I')
+            fdr();
+        else if (x == 'H')
+            bkl();
+        else if (x == 'J')
+            bkr();
+
+        else if (x == '0')
+            s0();
+        else if (x == '1')
+            s1();
+        else if (x == '2')
+            s2();
+        else if (x == '3')
+            s3();
+        else if (x == '4')
+            s4();
+        else if (x == '5')
+            s5();
+        else if (x == '6')
+            s6();
+        else if (x == '7')
+            s7();
+        else if (x == '8')
+            s8();
+        else if (x == '9')
+            s9();
+        else if (x == 'q')
+            s10();
+
+        else if (x == 'S')
+            st();
+    }
+    delay(10);
 }
