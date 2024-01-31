@@ -110,3 +110,34 @@ void bkr()
 {
     digitalWrite(in2, HIGH);
 }
+
+void s0()
+{
+    analogWrite(enA, 125);
+    analogWrite(enB, 125);
+}
+void s1()
+{
+    analogWrite(enA, 138);
+    analogWrite(enB, 138);
+}
+void s2()
+{
+    analogWrite(enA, 151);
+    analogWrite(enB, 151);
+}
+void s3()
+{
+    analogWrite(enA, 164);
+    analogWrite(enB, 164);
+}
+void s4()
+{
+    analogWrite(enA, 177);
+    analogWrite(enB, 177);
+}
+void s5()
+{
+    analogWrite(enA, 190);
+    analogWrite(enB, 190);
+}
