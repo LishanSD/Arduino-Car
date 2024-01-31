@@ -94,3 +94,19 @@ void right()
     digitalWrite(in1, HIGH);
     digitalWrite(in4, HIGH);
 }
+void fdl()
+{
+    digitalWrite(in3, HIGH);
+}
+void fdr()
+{
+    digitalWrite(in1, HIGH);
+}
+void bkl()
+{
+    digitalWrite(in4, HIGH);
+}
+void bkr()
+{
+    digitalWrite(in2, HIGH);
+}
