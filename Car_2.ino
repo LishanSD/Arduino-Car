@@ -166,3 +166,11 @@ void s10()
     analogWrite(enA, 255);
     analogWrite(enB, 255);
 }
+
+void st()
+{
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, LOW);
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, LOW);
+}
