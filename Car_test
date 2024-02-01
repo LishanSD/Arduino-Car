@@ -38,6 +38,7 @@ void loop()
       left();
       break;
     }
+    stop();
   }
 }
 
@@ -91,4 +92,12 @@ void right()
   delay(200);
   digitalWrite(in2, LOW);
   digitalWrite(in3, LOW);
+}
+
+void stop()
+{
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, LOW);
 }
