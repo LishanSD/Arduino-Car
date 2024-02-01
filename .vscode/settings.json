@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.dbclient-js": "javascript",
+    "car_test": "cpp"
+  }
+}

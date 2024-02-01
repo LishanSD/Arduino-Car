@@ -54,6 +54,8 @@ void forwardleft()
 {
   digitalWrite(in1, LOW);
   digitalWrite(in3, LOW);
+  digitalWrite(in1, LOW);
+  digitalWrite(in4, LOW);
 }
 
 void backward()
