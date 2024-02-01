@@ -45,8 +45,14 @@ void forward()
 {
   digitalWrite(in1, HIGH);
   digitalWrite(in3, HIGH);
-  delay(500);
+  delay(200);
   digitalWrite(in1, LOW);
+  digitalWrite(in3, LOW);
+}
+
+void forwardleft()
+{
+  digitalWrite(in1, HIGH);
   digitalWrite(in3, LOW);
 }
 
