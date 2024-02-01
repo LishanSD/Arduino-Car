@@ -58,6 +58,14 @@ void forwardleft()
   digitalWrite(in4, LOW);
 }
 
+void forwardright()
+{
+  digitalWrite(in1, LOW);
+  digitalWrite(in3, LOW);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, LOW);
+}
+
 void backward()
 {
   digitalWrite(in2, HIGH);
