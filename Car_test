@@ -52,7 +52,7 @@ void forward()
 
 void forwardleft()
 {
-  digitalWrite(in1, HIGH);
+  digitalWrite(in1, LOW);
   digitalWrite(in3, LOW);
 }
 
