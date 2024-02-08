@@ -32,10 +32,10 @@ void loop()
       backward();
       break;
     case 'R':
-      right();
+      forwardright();
       break;
     case 'L':
-      left();
+      forwardleft();
       break;
     }
     stop();
