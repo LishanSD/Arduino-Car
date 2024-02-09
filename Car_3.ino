@@ -81,3 +81,54 @@ void right()
     digitalWrite(in1, HIGH);
     digitalWrite(in4, HIGH);
 }
+
+void s1()
+{
+    analogWrite(enA, 138);
+    analogWrite(enB, 138);
+}
+void s2()
+{
+    analogWrite(enA, 151);
+    analogWrite(enB, 151);
+}
+void s3()
+{
+    analogWrite(enA, 164);
+    analogWrite(enB, 164);
+}
+void s4()
+{
+    analogWrite(enA, 177);
+    analogWrite(enB, 177);
+}
+void s5()
+{
+    analogWrite(enA, 190);
+    analogWrite(enB, 190);
+}
+void s6()
+{
+    analogWrite(enA, 203);
+    analogWrite(enB, 203);
+}
+void s7()
+{
+    analogWrite(enA, 216);
+    analogWrite(enB, 216);
+}
+void s8()
+{
+    analogWrite(enA, 229);
+    analogWrite(enB, 229);
+}
+void s9()
+{
+    analogWrite(enA, 242);
+    analogWrite(enB, 242);
+}
+void s10()
+{
+    analogWrite(enA, 255);
+    analogWrite(enB, 255);
+}
