@@ -132,6 +132,7 @@ void s10()
     analogWrite(enA, 255);
     analogWrite(enB, 255);
 }
+
 void st()
 {
     digitalWrite(in1, LOW);
